@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.section-pad{
+    padding: 50px;
+}
+/*---------------------
+ welcome area start 
+----------------------*/
+.welcome-area{
+    background-color:#2D25A0;
+}
+.welcome-top{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 102px;
+}
+.first-row-contant h1{
+    font-size: 84px;
+    line-height: 80px;
+    color: #ffffff;
+}
+.first-row-img img{
+    width: 556px;
+}
+/*-------------
+ main area 
+ ---------------*/
+ .players{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-column-gap: 45px;
+     grid-row-gap: 27px;
+     background: #ffffff;
+ }
+ .player{
+     width: 330px;
+     height: 474px;
+     padding: 15px;
+     background: #FFFFFF;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     
+ }
+ .player img{
+     width: 330px;
+ }
+ .player h3{
+     font-size: 28px;
+     color: #18191F;
+     line-height: 24px;
+ }
+ .player p{
+     color: #6C6C6C;
+     font-size: 16px;
+     line-height: 26px;
+     margin: 10px 0;
+ }
+/*---------------- 
+footer area 
+------------------*/
+.footer-area{
+    text-align: center;
+}
+.footer-img img{
+    width: 483px;
+    height: 110px;
+}
+.footer-icon i{
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    margin: 0 14px;
+    margin-top: 20px;
+}
+.footer-icon a{
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
+    background: #969BAB;
+    margin: 0 14px;
+}
+.footer-area p{
+    margin-top: 20px;
+}
